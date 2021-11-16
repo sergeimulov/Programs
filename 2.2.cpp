@@ -4,15 +4,18 @@
 
  
 using namespace std;
- 
 
- 
- 
-long int main() { 
-	float a,x,y;
+/**
+* \brief поиск у
+* \param х параметр ввода
+* \param а параметр условия
+* \return у
+**/
+void find_y(double x);
 
-	a=1,6;
-	cin>>x;
+
+void find_y(double x){
+	const double a=1,6;
 	if(x=0){
 		y=3;
 		cout<<y;
@@ -23,6 +26,15 @@ long int main() {
         y=((a/x)+sin(x));
 		cout<<y;
     }
+}
+ 
+ 
+long int main() { 
+	double x;
+
+	cin>>x;
+	find_y(x);
+
 
 	
 }
