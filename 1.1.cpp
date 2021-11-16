@@ -2,11 +2,24 @@
 #include <iostream>
 #include <cmath>
 
-
 using namespace std;
 
+/**
+* \brief Поиск а
+* \param х параметр ввода
+* \param у параметр ввода
+* \param z параметр ввода
+* \return а
+**/
 double a(float x, float y, float z);
 
+/**
+* \brief Поиск b
+* \param х параметр ввода
+* \param у параметр ввода
+* \param z параметр ввода
+* \return b
+**/
 double b(float x, float y, float z);
 
 int main() {
